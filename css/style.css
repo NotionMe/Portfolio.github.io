@@ -53,6 +53,7 @@ body {
 
   .nav-container {
     flex-direction: column;
+    align-items: center;
   }
   nav ul {
     margin-top: 10px;
@@ -232,6 +233,13 @@ nav ul li a.active {
   max-width: 300px;
   height: auto;
   border-radius: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.program {
+  margin: 20px auto;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 .feature-list {
